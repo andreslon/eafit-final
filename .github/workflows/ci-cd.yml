@@ -15,10 +15,10 @@ env:
   NAMESPACE: default
   IMAGE_TAG: ${{ github.sha }}  
   GCP_REGISTRY: us-central1-docker.pkg.dev
-  GCP_REPOSITORY: eafit-repository
+  GCP_REPOSITORY: eafit-ar
   GCP_PROJECT_ID: labs-421117
-  GKE_CLUSTER: eafit-cluster
-  GKE_ZONE: us-central1
+  GKE_CLUSTER: cluster-eafit
+  GKE_ZONE: us-east1
 
   ASPNETCORE_ENVIRONMENT: ${{ vars.ASPNETCORE_ENVIRONMENT }}
   AUTHOR: ${{ vars.AUTHOR }}
